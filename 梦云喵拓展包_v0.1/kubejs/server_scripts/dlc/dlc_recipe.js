@@ -1,6 +1,37 @@
 ServerEvents.recipes(event => {
-	event.shapeless(Item.of('kubejs:neidan', 1), ['kubejs:sunbird_crystals'])
-	event.shapeless(Item.of('kubejs:sunbird_crystals', 1), ['kubejs:neidan'])
+	event.shapeless(Item.of('kubejs:neidan', 1), ['kubejs:sunbird_crystals']);
+	event.shapeless(Item.of('kubejs:sunbird_crystals', 1), ['kubejs:neidan']);
+
+	event.shaped("kubejs:dantian_up", [
+		' C ',
+		'ABA',
+		' A '
+	], {
+		A: 'kubejs:diamond_bottle',
+		B: 'biomancy:living_flesh',
+		C: 'kubejs:parasitic_elf'
+	});
+
+	event.shaped("kubejs:dantian_down", [
+		' C ',
+		'ABA',
+		' A '
+	], {
+		A: 'kubejs:diamond_bottle',
+		B: 'biomancy:living_flesh',
+		C: 'kubejs:immortal_volcanic_rock'
+	});
+
+	event.shaped("kubejs:dantian_middle", [
+		' C ',
+		'ABA',
+		' A '
+	], {
+		A: 'kubejs:diamond_bottle',
+		B: 'biomancy:living_flesh',
+		C: 'kubejs:flower_heart'
+	});
+
 	event.shaped("kubejs:sculk_lamp", [
 		' A ',
 		'ABA',
@@ -142,7 +173,7 @@ ServerEvents.recipes(event => {
 	], {
 		A: 'kubejs:warden_rib',
 		B: 'kubejs:warden_core',
-		C: 'kubejs:sculk_eye',
+		C: 'kubejs:sculk_soul',
 		D: 'kubejs:warden_muscle',
 		E: 'kubejs:sculk_pieces'
 	})
