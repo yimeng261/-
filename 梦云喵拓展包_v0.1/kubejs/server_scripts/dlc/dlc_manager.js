@@ -127,6 +127,7 @@ function initNumbers(player){
     player.persistentData.putInt('ageRecord',player.age);
     player.persistentData.putInt('resourceRecord', 0);
     player.persistentData.putInt('qi', 0);
+    player.persistentData.putBoolean('neidan',false);
 }
 
 global.updatePlayerActiveStatus = player =>{
