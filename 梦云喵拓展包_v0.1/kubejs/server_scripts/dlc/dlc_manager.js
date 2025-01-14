@@ -32,13 +32,17 @@ function dlcUpdate(player)
 
     if(itemMap.has('kubejs:neidan')){
         player.abilities.mayfly = true;
+        player.abilities.flyingSpeed=0.1;
         player.onUpdateAbilities();
         player.modifyAttribute('irons_spellbooks:spell_power','neidan',count/10,'addition');
+        player.persistentData.putBoolean('neidan',true);
         count+=15;
     }
     else{
-        if(!player.isCreative())
+        if(!player.isCreative()&&player.persistentData.getBoolean('neidan')){
             player.abilities.mayfly = false;
+            player.persistentData.putBoolean('neidan',false);
+        }
         player.onUpdateAbilities();
         player.removeAttribute('irons_spellbooks:spell_power','neidan');
     }
