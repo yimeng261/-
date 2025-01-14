@@ -1,6 +1,16 @@
 ServerEvents.recipes(event => {
 	event.shapeless(Item.of('kubejs:neidan', 1), ['kubejs:sunbird_crystals']);
 	event.shapeless(Item.of('kubejs:sunbird_crystals', 1), ['kubejs:neidan']);
+	/*
+
+	let moonlight_staff = Item.of('kubejs:moonlight_staff')
+	moonlight_staff.nbt.ISB_Spells.maxSpells = 8;
+	event.shaped(moonlight_staff, [
+		' C ',
+	], {
+		C: 'minecraft:diamond'
+	});
+	*/
 
 	event.shaped("kubejs:dantian_up", [
 		' C ',
@@ -181,22 +191,22 @@ ServerEvents.recipes(event => {
 	event.recipes.create.sequenced_assembly([
 		Item.of('kubejs:recycle_system')
 	], 'art_of_forging:forged_steel_ingot', [
-		event.recipes.createPressing('kubejs:half_recycleSystem', 'kubejs:half_recycleSystem'),
 		event.recipes.createDeploying('kubejs:half_recycleSystem', ['kubejs:half_recycleSystem', 'create:mechanical_saw']),
 		event.recipes.createDeploying('kubejs:half_recycleSystem', ['kubejs:half_recycleSystem', 'create:crushing_wheel']),
 		event.recipes.createDeploying('kubejs:half_recycleSystem', ['kubejs:half_recycleSystem', 'create:precision_mechanism']),
+		event.recipes.createPressing('kubejs:half_recycleSystem', 'kubejs:half_recycleSystem')
 	]).transitionalItem('kubejs:half_recycleSystem').loops(3)
 
 	event.recipes.create.sequenced_assembly([
 		Item.of('kubejs:temperature_controller').withChance(50.0),
 		Item.of('chestcavity:iron_scrap').withChance(50.0)
 	], 'art_of_forging:forged_steel_ingot', [
-		event.recipes.createPressing('kubejs:half_temperatureController', 'kubejs:half_temperatureController'),
 		event.recipes.createDeploying('kubejs:half_temperatureController', ['kubejs:half_temperatureController', 'create:precision_mechanism']),
 		event.recipes.createDeploying('kubejs:half_temperatureController', ['kubejs:half_temperatureController', 'create:fluid_tank']),
 		event.recipes.create.filling('kubejs:half_temperatureController', ['kubejs:half_temperatureController', Fluid.of('minecraft:lava').withAmount(1000)]),
 		event.recipes.createDeploying('kubejs:half_temperatureController', ['kubejs:half_temperatureController', 'create:fluid_tank']),
-		event.recipes.create.filling('kubejs:half_temperatureController', ['kubejs:half_temperatureController', Fluid.of('minecraft:water').withAmount(1000)])
+		event.recipes.create.filling('kubejs:half_temperatureController', ['kubejs:half_temperatureController', Fluid.of('minecraft:water').withAmount(1000)]),
+		event.recipes.createPressing('kubejs:half_temperatureController', 'kubejs:half_temperatureController')
 	]).transitionalItem('kubejs:half_temperatureController').loops(3)
 
 	event.recipes.create.sequenced_assembly([
@@ -211,10 +221,14 @@ ServerEvents.recipes(event => {
 		Item.of('kubejs:machine_core').withChance(20.0),
 		Item.of('chestcavity:iron_scrap').withChance(80.0)
 	], 'art_of_forging:forged_steel_ingot', [
-		event.recipes.createPressing('kubejs:half_machineCore', 'kubejs:half_machineCore'),
 		event.recipes.createDeploying('kubejs:half_machineCore', ['kubejs:half_machineCore', 'minecraft:clock']),
 		event.recipes.createDeploying('kubejs:half_machineCore', ['kubejs:half_machineCore', 'minecraft:nether_star']),
 		event.recipes.createDeploying('kubejs:half_machineCore', ['kubejs:half_machineCore', 'create:precision_mechanism']),
 		event.recipes.createDeploying('kubejs:half_machineCore', ['kubejs:half_machineCore', 'art_of_forging:enigmatic_construct']),
+		event.recipes.createPressing('kubejs:half_machineCore', 'kubejs:half_machineCore')
 	]).transitionalItem('kubejs:half_machineCore').loops(2)
+
+	//
+	//event.replaceInput({},'minecraft:paper','#kubejs:paper');
+	//Utils.server.players.tell(`${Items.PAPER}`)
 });
