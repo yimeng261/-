@@ -182,9 +182,9 @@ ServerEvents.recipes(event => {
 		Item.of('kubejs:recycle_system')
 	], 'art_of_forging:forged_steel_ingot', [
 		event.recipes.createPressing('kubejs:half_recycleSystem', 'kubejs:half_recycleSystem'),
-		event.recipes.createDeploying('kubejs:half_recycleSystem', ['kubejs:half_recycleSystem', 'create:precision_mechanism']),
 		event.recipes.createDeploying('kubejs:half_recycleSystem', ['kubejs:half_recycleSystem', 'create:mechanical_saw']),
 		event.recipes.createDeploying('kubejs:half_recycleSystem', ['kubejs:half_recycleSystem', 'create:crushing_wheel']),
+		event.recipes.createDeploying('kubejs:half_recycleSystem', ['kubejs:half_recycleSystem', 'create:precision_mechanism']),
 	]).transitionalItem('kubejs:half_recycleSystem').loops(3)
 
 	event.recipes.create.sequenced_assembly([
