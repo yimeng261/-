@@ -18,7 +18,7 @@ PlayerEvents.tick(event => {
     else
         player.persistentData.putInt('qi',qiMax);
 
-    if(player.abilities.flying&&!player.isCreative()&&player.persistentData.getBoolean('neidan')){
+    if(player.abilities.flying&&!player.isCreative()&&player.persistentData.getBoolean('neidan')&&itemMap.has('kubejs:neidan')){
         qi = player.persistentData.getInt('qi');
         if(qi<100){
             player.abilities.flying=false;
