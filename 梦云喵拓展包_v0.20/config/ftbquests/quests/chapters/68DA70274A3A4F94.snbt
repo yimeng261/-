@@ -1,0 +1,1823 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "68DA70274A3A4F94"
+	group: "4F4F4EA8CE67985B"
+	icon: {
+		Count: 1b
+		id: "kubejs:sculk_eye"
+		tag: { }
+	}
+	id: "68DA70274A3A4F94"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 2.5d
+			y: -4.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 2.5d
+			y: -1.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 2.5d
+			y: 2.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: -12.5d
+			y: -8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: -12.5d
+			y: -4.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: -12.5d
+			y: -1.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: -12.5d
+			y: 2.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.467948717948718d
+			hover: [ ]
+			image: "kubejs:textures/task/collection_1.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: -12.5d
+			y: 6.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0221B2CA81ED964E"]
+			description: ["糖果系列器官的拓展，为玩家提供20%减伤"]
+			hide_dependency_lines: true
+			id: "056B22D981FBD75A"
+			rewards: [{
+				id: "1A38C565E7A38986"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "大口呼吸吧"
+			tasks: [{
+				id: "1B81CB8E4E4DE235"
+				item: {
+					Count: 1b
+					id: "kubejs:candy_lung"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["0221B2CA81ED964E"]
+			dependency_requirement: "all_started"
+			description: ["糖果系列器官的拓展，在糖果器官种类不小于4时，可以为玩家抵挡一次致命伤害，并提供&d甜蜜之梦&r效果（时长等于糖果器官数量*4，等级等于糖果器官种类+1）"]
+			hide_dependency_lines: true
+			id: "7498005423AFAA36"
+			rewards: [{
+				id: "17BAAC5C1D76BDBA"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "香甜的气息，骗过了刀剑"
+			tasks: [{
+				id: "04C3E1747EA3FFA2"
+				item: {
+					Count: 1b
+					id: "kubejs:ginger_man_totem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["0221B2CA81ED964E"]
+			description: [
+				"糖果器官种类大于等于5时，提供&5糖果冲刺&r（等级等于糖果器官种类数量）效果"
+				""
+				"&5糖果冲刺&r：加快移动速度，可以直接走上一格高的方块，并提供（等级）/（等级+1.5）*100%的减伤"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "37B9C79FFFA76E86"
+			rewards: [{
+				id: "7CD6ECA632C79800"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "冰糖也是冰！"
+			tasks: [{
+				id: "4E7F0D96EFF8C933"
+				item: {
+					Count: 1b
+					id: "kubejs:candy_kidney"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["0221B2CA81ED964E"]
+			description: ["安全坠落高度：可以从更高地方落下不受伤"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6EE9094C833D52DD"
+			rewards: [{
+				id: "4F20036170003E69"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "拉伸变幻"
+			tasks: [{
+				id: "145FA6126F167DE8"
+				item: {
+					Count: 1b
+					id: "kubejs:jelly_muscle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["0221B2CA81ED964E"]
+			hide_dependency_lines: true
+			id: "5F825523549B36E8"
+			rewards: [{
+				id: "649615A1D47FB17D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "一拳打在橡皮糖上（？"
+			tasks: [{
+				id: "04B541D42736820B"
+				item: {
+					Count: 1b
+					id: "kubejs:candy_rib"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["6794388AA5357126"]
+			description: ["欢迎加入测试群讨论：893482112"]
+			hide: false
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "kubejs:sculk_eye"
+				tag: { }
+			}
+			id: "0B01993428CBC0D0"
+			shape: "rsquare"
+			subtitle: "一点点拓展"
+			tasks: [{
+				id: "7B1F53F0F07677D5"
+				type: "checkmark"
+			}]
+			title: "梦云喵dlc器官"
+			x: -5.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["61AE04D10073EDDA"]
+			description: ["&6艺术家法杖&r提供色彩效果时，将会计算体内彩色器官数量"]
+			hide_dependency_lines: true
+			id: "1319E0F79E98D602"
+			rewards: [{
+				id: "71584C15370F635B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "优质蜡笔（？"
+			tasks: [{
+				id: "6948B6A055E22670"
+				item: {
+					Count: 1b
+					id: "kubejs:carry_crayon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["61AE04D10073EDDA"]
+			description: [
+				"按下主动技能按键，为半径30格所有生物添加&6颜料束缚&r效果"
+				""
+				"&6颜料束缚&r：使生物行动缓慢，生物受到伤害提高（持续时间/100+色彩效果等级/8）倍，并且生物不再有无敌时间"
+			]
+			hide_dependency_lines: true
+			id: "37969812398D4AEB"
+			rewards: [{
+				id: "1AD2817436823DF0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "你好呀，我叫玛德蕾娜"
+			tasks: [{
+				id: "0A265F0CE158A345"
+				item: {
+					Count: 1b
+					id: "kubejs:pigment_bubble"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["61AE04D10073EDDA"]
+			description: ["激活后根据法力上限提供基础数值：最大生命值增加值为（法力上限/330），法力恢复增加值为（法力上限/3000），伤害增加值为（法力上限/150），护甲值增加值为（法力上限/240）"]
+			hide_dependency_lines: true
+			id: "5D95C6CB5B906C56"
+			rewards: [{
+				id: "6A0ED81CE3875099"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "阁下若不吃法术，本人也略懂拳脚"
+			tasks: [{
+				id: "7F677B33D91DF866"
+				item: {
+					Count: 1b
+					id: "kubejs:spirits_bone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["77D09DE7E27A0BE0"]
+			description: [
+				"激活后增加200点资源上限"
+				""
+				"根据当前资源点数获得心火/熔火效果，时长增加值为（当前点数%1200/20），等级提升一级（不会超过30级）"
+			]
+			hide_dependency_lines: true
+			id: "6F51E7B9209318AA"
+			rewards: [{
+				id: "151836D08805E088"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "统合一切"
+			tasks: [{
+				id: "19D45B278ADB721B"
+				item: {
+					Count: 1b
+					id: "kubejs:machine_core"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0221B2CA81ED964E"]
+			hide_dependency_lines: true
+			id: "5E7BD57EE230109B"
+			rewards: [{
+				id: "389578E44523D2BC"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "糖果魔法使有自己的基础模板"
+			tasks: [{
+				id: "7374ED5B76E1525F"
+				item: {
+					Count: 1b
+					id: "kubejs:maple_syrup"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["08A6D5098C55C9B8"]
+			hide: false
+			hide_dependency_lines: true
+			hide_text_until_complete: false
+			id: "17668D30A525129B"
+			rewards: [{
+				id: "64B3DA6202AC5409"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "修行之本"
+			tasks: [{
+				id: "182077643525EF02"
+				item: {
+					Count: 1b
+					id: "kubejs:jingmai"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["133AA57407D4DB28"]
+			description: [
+				"由&c监守者核心&r与&c唱片&r合成获得，按下主动技能按键可以连续发射三次音爆，冷却为（30-命中敌人数*3）秒"
+				""
+				"伤害可由玩家经验加成"
+			]
+			hide_dependency_lines: true
+			id: "5F1348333D0A1702"
+			rewards: [{
+				id: "0EE9830663765D16"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "一点音乐"
+			tasks: [{
+				id: "346C6200561A8CC4"
+				item: {
+					Count: 1b
+					id: "kubejs:sculk_core"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["08A6D5098C55C9B8"]
+			hide_dependency_lines: true
+			id: "53C487B11DC8462C"
+			rewards: [{
+				id: "53802BCB1F294B93"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "九处官阙，悉相通贯"
+			tasks: [{
+				id: "532235530C7CFF74"
+				item: {
+					Count: 1b
+					id: "kubejs:dantian_up"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["133AA57407D4DB28"]
+			description: [
+				"获得夜视效果，并不再受黑暗效果影响"
+				"存在&c幽匿核心&r时，根据音爆击中的敌人数量给予玩家深渊庇佑效果（时长为10*击中数/3）以及数值提升（时长为击中数*10）"
+				"数值提升：攻击伤害增加值为（击中数*3），法术强度增加值为（击中数/3）*100%，法力上限增加值为（击中数*100），最大生命值增加值为（击中数）"
+			]
+			hide_dependency_lines: true
+			id: "66B11FCCE366ADCF"
+			rewards: [{
+				id: "0FE8403B8CF96769"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "古老的眼睛"
+			tasks: [{
+				id: "045449BA7D6A907C"
+				item: {
+					Count: 1b
+					id: "kubejs:sculk_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["08A6D5098C55C9B8"]
+			hide_dependency_lines: true
+			id: "05B9F4EE2BFB9C6F"
+			rewards: [{
+				id: "1C6B2A4DA8CCA17D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "练气意守"
+			tasks: [{
+				id: "4FFFAB29993B988D"
+				item: {
+					Count: 1b
+					id: "kubejs:dantian_middle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["133AA57407D4DB28"]
+			hide_dependency_lines: true
+			id: "4E8AF6ACDC9957C2"
+			rewards: [{
+				id: "0CB223AD1D32F213"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "从古代燃烧至今的魂火"
+			tasks: [{
+				id: "3A51452E850F6C5F"
+				item: {
+					Count: 1b
+					id: "kubejs:sculk_lamp"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["08A6D5098C55C9B8"]
+			hide_dependency_lines: true
+			id: "29FBCCE70E7A7957"
+			rewards: [{
+				id: "16E98DB42E6708E1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "通诸脏腑，交感阴阳"
+			tasks: [{
+				id: "2671084EEF698369"
+				item: {
+					Count: 1b
+					id: "kubejs:dantian_down"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["77D09DE7E27A0BE0"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "652A5D8847FA5FC2"
+			rewards: [{
+				id: "7A207F99E09F4E2A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "不再为体温苦恼"
+			tasks: [{
+				id: "575EFBF529B796D9"
+				item: {
+					Count: 1b
+					id: "kubejs:temperature_controller"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08A6D5098C55C9B8"]
+			hide_dependency_lines: true
+			id: "5358EFD1A766558F"
+			rewards: [{
+				id: "61AD5FB3C5B68988"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "天地任我行"
+			tasks: [{
+				id: "3F320B2E46FD5DD5"
+				item: {
+					Count: 1b
+					id: "kubejs:neidan"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["08A6D5098C55C9B8"]
+			hide_dependency_lines: true
+			id: "1E1808C95798371D"
+			rewards: [{
+				id: "22740E64BFDEF261"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "无思无虑，自然虚灵"
+			tasks: [{
+				id: "6F2EBC17CB079B90"
+				item: {
+					Count: 1b
+					id: "kubejs:yuanshen"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["77D09DE7E27A0BE0"]
+			description: [
+				"激活后，根据资源点数上限及资源点数提供基础数值加成"
+				""
+				"数值加成：生命上限增加值为（点数上限/25），法力上限增加值为（点数上限/5），伤害增加值为（点数上限/100），护甲值增加值为（点数上限/80）"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "229A97B44704940A"
+			rewards: [{
+				id: "03849B713E42575E"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "融化的财富流淌而出"
+			tasks: [{
+				id: "74B8E6B7D09641F1"
+				item: {
+					Count: 1b
+					id: "kubejs:gold_cup"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77D09DE7E27A0BE0"]
+			description: ["激活后根据体内资源器官数量增加资源点数上限，增加值为（资源器官数量*25）"]
+			hide_dependency_lines: true
+			id: "77A7A4BC266B628D"
+			rewards: [{
+				id: "2CCB5DFC224F5D68"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "我们称之为--高效"
+			tasks: [{
+				id: "4081885021147885"
+				item: {
+					Count: 1b
+					id: "kubejs:recycle_system"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B01993428CBC0D0"]
+			description: [
+				"本拓展包添加了新机制：甜度"
+				"当糖果器官数量大于等于10时，甜度会提供属性加成："
+				"1.法术强度增加（甜度/45）*100%"
+				"2.糖果法术强度增加（甜度/25）*100%"
+				"3.最大生命值乘以（甜度/25）"
+				"4.提供甜度*1%的免伤"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "kubejs:candy"
+			id: "0221B2CA81ED964E"
+			shape: "rsquare"
+			subtitle: "魔法使的心流淌着糖"
+			tasks: [{
+				id: "407455795E8E2C86"
+				title: "糖果器官拓展"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -9.75d
+		}
+		{
+			dependencies: ["0B01993428CBC0D0"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "kubejs:sculk_eye"
+				tag: { }
+			}
+			id: "133AA57407D4DB28"
+			shape: "rsquare"
+			subtitle: "万籁俱寂"
+			tasks: [{
+				id: "5E1DF451AF20F5B1"
+				title: "幽匿器官"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["133AA57407D4DB28"]
+			hide_dependency_lines: true
+			id: "496A953505135409"
+			tasks: [{
+				id: "2E1CC1D88FFAE2B3"
+				item: {
+					Count: 1b
+					id: "kubejs:sculk_pieces"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["133AA57407D4DB28"]
+			hide_dependency_lines: true
+			id: "36448BDB232F540F"
+			tasks: [{
+				id: "775E09DA319D5109"
+				item: {
+					Count: 1b
+					id: "kubejs:sculk_soul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["133AA57407D4DB28"]
+			hide_dependency_lines: true
+			id: "6CB757F4C871D693"
+			tasks: [{
+				id: "6DF63DA86A829E6E"
+				item: {
+					Count: 1b
+					id: "kubejs:warden_rib"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["133AA57407D4DB28"]
+			hide_dependency_lines: true
+			id: "2A4FAD22D0281406"
+			tasks: [{
+				id: "422BDED831052C03"
+				item: {
+					Count: 1b
+					id: "kubejs:warden_muscle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["133AA57407D4DB28"]
+			hide_dependency_lines: true
+			id: "3661A121F1837CFA"
+			tasks: [{
+				id: "5EBD6F4BD9C1ACF4"
+				item: {
+					Count: 1b
+					id: "kubejs:warden_core"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0B01993428CBC0D0"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "kubejs:revolution_bell"
+				tag: { }
+			}
+			id: "77D09DE7E27A0BE0"
+			shape: "rsquare"
+			subtitle: "机械与革命"
+			tasks: [{
+				id: "7B8C566ED01F0248"
+				title: "机械与资源拓展"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0B01993428CBC0D0"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "kubejs:sunbird_crystals"
+				tag: { }
+			}
+			id: "08A6D5098C55C9B8"
+			shape: "rsquare"
+			subtitle: "仙气飘飘"
+			tasks: [{
+				id: "360697B0CF53264E"
+				title: "修真器官"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08A6D5098C55C9B8"]
+			hide_dependency_lines: true
+			id: "2475251F8FB95904"
+			rewards: [{
+				id: "3C4CDAEC04A09622"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "循督过三关，周天自流转"
+			tasks: [{
+				id: "4AF51D468FD088D9"
+				item: {
+					Count: 1b
+					id: "kubejs:darksteel_spine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["08A6D5098C55C9B8"]
+			hide_dependency_lines: true
+			id: "4F10DD4B2DBAFC08"
+			rewards: [{
+				id: "77F165AF77E17FA0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "离炁为日，坎精为月"
+			tasks: [{
+				id: "3C1F6BA6DD4F53C3"
+				item: {
+					Count: 1b
+					id: "kubejs:jade_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B01993428CBC0D0"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:diamond_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "61AE04D10073EDDA"
+			shape: "rsquare"
+			subtitle: "而后信念愈发坚定"
+			tasks: [{
+				id: "0D7BCB4BCF08FBAF"
+				title: "魔法器官拓展"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["61AE04D10073EDDA"]
+			hide_dependency_lines: true
+			id: "68929053EE827713"
+			rewards: [{
+				id: "5C6B4553783D3839"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "荧光亦能照亮黑暗"
+			tasks: [{
+				id: "61BC051921EE187E"
+				item: {
+					Count: 1b
+					id: "kubejs:luminescent_sac_gland"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["61AE04D10073EDDA"]
+			hide_dependency_lines: true
+			id: "70E5D1241BC18706"
+			rewards: [{
+				id: "7759D187E442E93B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "心在滴血（物理）"
+			tasks: [{
+				id: "65883910A65E6D0A"
+				item: {
+					Count: 1b
+					id: "kubejs:bloodthorn_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["61AE04D10073EDDA"]
+			hide_dependency_lines: true
+			id: "5A638C97E635279E"
+			rewards: [{
+				id: "213E764DC05DF609"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E907B1F2D53B2EE"
+				item: {
+					Count: 1b
+					id: "kubejs:thundercloud_bone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["61AE04D10073EDDA"]
+			description: ["激活后雷电法术强度增加：魔法器官数量*20%"]
+			hide_dependency_lines: true
+			id: "75979E0B8E60F98C"
+			rewards: [{
+				id: "731BE774A06F7A1F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "043FF19567AC0706"
+				item: {
+					Count: 1b
+					id: "kubejs:thunderstorm_feather"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["61AE04D10073EDDA"]
+			hide_dependency_lines: true
+			id: "0F6DD583746D05CC"
+			rewards: [{
+				id: "37D4F73937CA14E2"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "涅槃重生"
+			tasks: [{
+				id: "748A27272145A816"
+				item: {
+					Count: 1b
+					id: "kubejs:phoenix_feather"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["0B01993428CBC0D0"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "kubejs:tree_heart"
+				tag: { }
+			}
+			id: "5BC83A054E53FB6D"
+			shape: "rsquare"
+			subtitle: "向自然寻求力量"
+			tasks: [{
+				id: "63A56D49003E348D"
+				title: "自然器官"
+				type: "checkmark"
+			}]
+			x: -18.5d
+			y: -9.75d
+		}
+		{
+			dependencies: ["5BC83A054E53FB6D"]
+			hide_dependency_lines: true
+			id: "7EAA884D5F6A03CD"
+			rewards: [{
+				id: "24064DAA88ECDC2D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A84713470AFB2FD"
+				item: {
+					Count: 1b
+					id: "kubejs:tree_body"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["5BC83A054E53FB6D"]
+			hide_dependency_lines: true
+			id: "545C93286D3FE011"
+			rewards: [{
+				id: "4F363CC7B1D25963"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "721215A2AA9F973D"
+				item: {
+					Count: 1b
+					id: "kubejs:tree_branch"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["5BC83A054E53FB6D"]
+			description: ["动态光源（腰上的灯笼和手上的火把）也会被计算亮度"]
+			hide_dependency_lines: true
+			id: "1A89600F6BEA4EB4"
+			rewards: [{
+				id: "4FF6E37981848604"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D50BA66BEA188CB"
+				item: {
+					Count: 1b
+					id: "kubejs:tree_leaf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["5BC83A054E53FB6D"]
+			hide_dependency_lines: true
+			id: "1A4B8EA8004359D0"
+			rewards: [{
+				id: "18C039BFA383B9E8"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E59E19AEE5DA9E9"
+				item: {
+					Count: 1b
+					id: "kubejs:tree_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["5BC83A054E53FB6D"]
+			hide_dependency_lines: true
+			id: "786350553D32EB6C"
+			rewards: [{
+				id: "0B413A89637EB472"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "锋刃迸发"
+			tasks: [{
+				id: "7AE9FDD14A30CCE8"
+				item: {
+					Count: 1b
+					id: "kubejs:flower_of_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["0B01993428CBC0D0"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "kubejs:gravitational_iris"
+				tag: { }
+			}
+			id: "0A217027A447B569"
+			shape: "rsquare"
+			subtitle: "我们编织星光"
+			tasks: [{
+				id: "1CA8A191D97EAC88"
+				title: "星界器官"
+				type: "checkmark"
+			}]
+			x: -18.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0A217027A447B569"]
+			hide_dependency_lines: true
+			id: "1B600DE54E9DF66D"
+			rewards: [{
+				id: "0937FCDBC0CB9EC7"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "高高地飞起来"
+			tasks: [{
+				id: "1917612095B9787B"
+				item: {
+					Count: 1b
+					id: "kubejs:void_engine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0A217027A447B569"]
+			hide_dependency_lines: true
+			id: "4786DDD8BC154A2A"
+			rewards: [{
+				id: "41E95097B8864CF7"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07F0A2FDB1BB8E68"
+				item: {
+					Count: 1b
+					id: "kubejs:star_gallblader"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0A217027A447B569"]
+			hide_dependency_lines: true
+			id: "67D1AB8194DEEC5F"
+			rewards: [{
+				id: "3D0F0419F3FF355D"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77CBA230EA599C9D"
+				item: {
+					Count: 1b
+					id: "kubejs:star_spleen"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0A217027A447B569"]
+			hide_dependency_lines: true
+			id: "2F8D81016D17407E"
+			rewards: [{
+				id: "5AB5BA03381EFFA3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0614DB1CE8F655F9"
+				item: {
+					Count: 1b
+					id: "kubejs:gravitational_iris"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0A217027A447B569"]
+			description: [
+				"满月：夜视"
+				"亏凸月：生命恢复"
+				"下弦月：速度"
+				"残月：抗性提升"
+				"新月：跳跃提升"
+				"峨眉月：急迫"
+				"盈凸月：力量"
+				"第二次满月：发光"
+				"（月相若有错误欢迎指出）"
+			]
+			hide_dependency_lines: true
+			id: "1DEF96D28C38EF28"
+			rewards: [{
+				id: "019E1C5FECB37921"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67BC962E3929EB04"
+				item: {
+					Count: 1b
+					id: "kubejs:stellar_pathway"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0B01993428CBC0D0"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "kubejs:blaze_nucleus"
+				tag: { }
+			}
+			id: "02189F5E759F3C8F"
+			shape: "rsquare"
+			subtitle: "更多的是功能性？"
+			tasks: [{
+				id: "79943C72A9DE270E"
+				title: "下界/熔铸器官"
+				type: "checkmark"
+			}]
+			x: -18.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["02189F5E759F3C8F"]
+			hide_dependency_lines: true
+			id: "0E3AD45CB61A6A6E"
+			rewards: [{
+				id: "46092C5C5FD5F455"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "很好矿透使我改了又改"
+			tasks: [{
+				id: "02A86F1D0729DEF0"
+				item: {
+					Count: 1b
+					id: "kubejs:pyroclastic_scope"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["02189F5E759F3C8F"]
+			hide_dependency_lines: true
+			id: "2446EE1A1990EF3D"
+			rewards: [{
+				id: "2C31C31B6006583C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "自动烧炼"
+			tasks: [{
+				id: "7E3F0EBF4D8C3778"
+				item: {
+					Count: 1b
+					id: "kubejs:lava_core"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["02189F5E759F3C8F"]
+			hide_dependency_lines: true
+			id: "707ECA6DF5334481"
+			rewards: [{
+				id: "0FA74D94F7D8087C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "朴实无华的吸血"
+			tasks: [{
+				id: "64CCCF1EE2805AB4"
+				item: {
+					Count: 1b
+					id: "kubejs:life_devouring_bone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["02189F5E759F3C8F"]
+			hide_dependency_lines: true
+			id: "30388B5D4188B53C"
+			rewards: [{
+				id: "548FE6BB2828F089"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "妈妈再也不担心打凋灵不掉头了"
+			tasks: [{
+				id: "690EE8FC88C1862F"
+				item: {
+					Count: 1b
+					id: "kubejs:wither_spine_claw"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["02189F5E759F3C8F"]
+			hide_dependency_lines: true
+			id: "6256BBA973372C24"
+			rewards: [{
+				id: "5F85E3184D63E141"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "浅浅cos一下烈焰人"
+			tasks: [{
+				id: "6EF0564236721709"
+				item: {
+					Count: 1b
+					id: "kubejs:blaze_nucleus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5BC83A054E53FB6D"]
+			hide_dependency_lines: true
+			id: "69DC072D2DC20EE7"
+			rewards: [{
+				id: "5EB4A2141DA14BF0"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7544960D26CA07A0"
+				item: {
+					Count: 1b
+					id: "kubejs:flower_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -8.75d
+		}
+		{
+			dependencies: ["0B01993428CBC0D0"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "kubejs:disaster_source"
+				tag: { }
+			}
+			id: "02BBAE2C6C227834"
+			shape: "rsquare"
+			subtitle: "所有，或者一无所有"
+			tasks: [{
+				id: "65D51F6E10E6757D"
+				title: "混沌器官"
+				type: "checkmark"
+			}]
+			x: -18.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["02BBAE2C6C227834"]
+			hide_dependency_lines: true
+			id: "53E577E3F0E0950A"
+			subtitle: "跟你爆了"
+			tasks: [{
+				id: "78321F79C2284AC6"
+				item: {
+					Count: 1b
+					id: "kubejs:disaster_source"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02BBAE2C6C227834"]
+			hide_dependency_lines: true
+			id: "79FB5163251E5255"
+			rewards: [{
+				id: "32B778D249AB2065"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "不用沙里淘金了"
+			tasks: [{
+				id: "024B987B25A94816"
+				item: "kubejs:chaos_tumor"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02BBAE2C6C227834"]
+			hide_dependency_lines: true
+			id: "6BE607B56B91C7BA"
+			rewards: [{
+				id: "126B1463FC4B80DA"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50AC36EB119D3A6D"
+				item: {
+					Count: 1b
+					id: "kubejs:chance_tedons"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02BBAE2C6C227834"]
+			hide_dependency_lines: true
+			id: "04BA5E76AB88AE51"
+			rewards: [{
+				id: "6B99F54CF7E27A70"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B55AF191EAAC20C"
+				item: {
+					Count: 1b
+					id: "kubejs:entropy_stomach"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02BBAE2C6C227834"]
+			hide_dependency_lines: true
+			id: "45E7E8F5868BF666"
+			rewards: [{
+				id: "587263DD5A3BF573"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58646A924DC9C094"
+				item: {
+					Count: 1b
+					id: "kubejs:rune_kidney"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B01993428CBC0D0"]
+			hide_dependency_lines: true
+			id: "0FB76A5083B762AF"
+			shape: "rsquare"
+			tasks: [{
+				id: "523CD7E9880CEFAA"
+				title: "杂项"
+				type: "checkmark"
+			}]
+			x: -18.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["0FB76A5083B762AF"]
+			description: [
+				"每两个法术只能成功注入后一个，请注意"
+				"tips:这是一把剑"
+			]
+			hide_dependency_lines: true
+			id: "67E270ADF47BA3A4"
+			rewards: [{
+				id: "015E921BB0272354"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "来自群友的要求"
+			tasks: [{
+				id: "0606F17A705E83F5"
+				item: {
+					Count: 1b
+					id: "kubejs:moonlight_staff"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 0
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["0FB76A5083B762AF"]
+			hide_dependency_lines: true
+			id: "5622FC83C6BDAA41"
+			rewards: [{
+				id: "07DC20DA1E688E2B"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "减少卡顿"
+			tasks: [
+				{
+					id: "4E531B608AFA548B"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "kubejs:better_spectral_hammer"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "517CAE3C673A0031"
+					item: "kubejs:matter_cluster"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["0FB76A5083B762AF"]
+			hide_dependency_lines: true
+			id: "10D53E7917A49998"
+			rewards: [{
+				id: "7A4527E2B42D8315"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C0AB06AA51EF5C5"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "kubejs:sweet_shell"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["0FB76A5083B762AF"]
+			hide_dependency_lines: true
+			id: "218BC9AC75F4F2FE"
+			rewards: [{
+				id: "26DDE516FEFC3740"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D6B8E23C8C97E79"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "kubejs:sweet_whirlpool"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["0FB76A5083B762AF"]
+			hide_dependency_lines: true
+			id: "5E6022E3AC24EE1C"
+			rewards: [{
+				id: "52CF75D335CDEE59"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "或许跑图会方便些？"
+			tasks: [{
+				id: "13DBEC1C91FCBAFC"
+				item: {
+					Count: 1b
+					id: "kubejs:spider_gland"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["0FB76A5083B762AF"]
+			hide_dependency_lines: true
+			id: "03141B5D1101491A"
+			rewards: [{
+				id: "72041294ADB386CB"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "偷袭！"
+			tasks: [{
+				id: "662FE7DC31612987"
+				item: {
+					Count: 1b
+					id: "kubejs:mimetic_gland"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["0FB76A5083B762AF"]
+			description: ["为冷汗模组和铁魔法的疣猪皮添加了配方兼容"]
+			hide_dependency_lines: true
+			id: "23CAA5DDB375279E"
+			rewards: [{
+				id: "2BE623C01838BC69"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B2E66F3CD578FB0"
+				item: "cold_sweat:hoglin_hide"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["0FB76A5083B762AF"]
+			description: [
+				"参考了B站up：Mr老白鸽的代码（已同意）"
+				"1.为铁魔法卷轴增加了shift显示魔法描述"
+				"2.为交货协议增加了不用右键就显示的交易描述"
+			]
+			hide_dependency_lines: true
+			id: "5289AB0014250E16"
+			rewards: [{
+				id: "029935037CBB2B6A"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "100E354DAB4CB860"
+				title: "小优化"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["02BBAE2C6C227834"]
+			hide_dependency_lines: true
+			id: "14490EB39C6660B5"
+			rewards: [{
+				id: "46B170A902F3B6C5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64580E801C6B31C7"
+				item: {
+					Count: 1b
+					id: "kubejs:abyss_gaze"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.5d
+		}
+	]
+	title: "支线：梦云喵拓展包"
+}
