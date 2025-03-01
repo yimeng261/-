@@ -98,6 +98,18 @@ ServerEvents.recipes(event => {
 		B: 'minecraft:music_disc_5'
 	});
 
+	event.shaped('kubejs:chaos_tumor', [
+		' A ',
+		'DBC',
+		' E '
+	], {
+		A: 'kubejs:rune_kidney',
+		B: 'kubejs:random_tumor',
+		C: 'kubejs:chance_tedons',
+		D: 'kubejs:abyss_gaze',
+		E: 'kubejs:entropy_stomach'
+	});
+
 	event.shaped('kubejs:luminescent_sac_gland', [
 		'CAC',
 		'ABA',
