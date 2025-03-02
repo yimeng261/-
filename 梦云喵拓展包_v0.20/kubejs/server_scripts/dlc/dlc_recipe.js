@@ -110,6 +110,24 @@ ServerEvents.recipes(event => {
 		E: 'kubejs:entropy_stomach'
 	});
 
+	event.shaped("kubejs:abyss_gaze", [
+		' A ',
+		'ABA',
+		' A '
+	], {
+		A: 'cataclysm:witherite_ingot',
+		B: 'nameless_trinkets:dragons_eye'
+	});
+
+	event.shaped("kubejs:chance_tedons", [
+		' A ',
+		'ABA',
+		' A '
+	], {
+		A: Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:teleport",index:0,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}').weakNBT(),
+		B: 'kubejs:muscle_diamond'
+	});
+
 	event.shaped('kubejs:luminescent_sac_gland', [
 		'CAC',
 		'ABA',
