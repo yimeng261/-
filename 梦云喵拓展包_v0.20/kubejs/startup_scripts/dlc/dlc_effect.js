@@ -8,8 +8,6 @@ StartupEvents.registry('mob_effect', event => {
     event.create('sugar_rush')
         .beneficial()
         .color(Color.PINK_DYE)
-        .modifyAttribute('minecraft:generic.movement_speed','sugar_rush_att',0.05,'addition')
-        .modifyAttribute('forge:step_height_addition','sugar_rush_att_1',1,'addition');
 
     event.create('sweet_whirlpool')
         .beneficial()
