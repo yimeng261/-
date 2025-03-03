@@ -238,7 +238,7 @@ let dlcTickOnly={
         let typeMap=getPlayerChestCavityTypeMap(event.player)
         let onlySet = new Set(typeMap.get('kubejs:candy').map(organ => organ.id));
         if(onlySet.size>=5){
-            player.potionEffects.add('kubejs:sugar_rush', 15 * 20 - 1 , count-1);
+            event.player.potionEffects.add('kubejs:sugar_rush', 15 * 20 - 1 , onlySet.size-1);
         }
     },
     'kubejs:stellar_pathway':function(event,organ){
