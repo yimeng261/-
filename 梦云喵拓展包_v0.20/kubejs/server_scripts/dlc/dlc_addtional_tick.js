@@ -80,6 +80,14 @@ PlayerEvents.tick(event => {
         })
     }
 
+    if(player.hasEffect('kubejs:sugar_rush')){
+        player.modifyAttribute('minecraft:generic.movement_speed','sugar_rush_att',0.05,'addition');
+        player.modifyAttribute('forge:step_height_addition','sugar_rush_att_1',2,'addition');
+    }else{
+        player.removeAttribute('minecraft:generic.movement_speed','sugar_rush_att');
+        player.removeAttribute('forge:step_height_addition','sugar_rush_att_1')
+    }
+
 
     if(player.isSprinting()&&itemMap.has('kubejs:chance_tedons')&&Math.random()>0.7&&player.onGround){
         let dest = findTeleportLocation(level, player, 20);
