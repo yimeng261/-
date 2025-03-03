@@ -262,6 +262,19 @@ ServerEvents.recipes(event => {
 		['hexerei:mahogany_sapling', 'hexerei:willow_sapling', 'hexerei:witch_hazel_sapling']
 	]);
 
+	event.shaped('kubejs:tree_body',[
+		['unusualprehistory:foxxi_log', 'unusualprehistory:ginkgo_log', 'unusualprehistory:dryo_log'],
+		['twilightforest:time_log', 'twilightforest:transformation_log', 'twilightforest:mining_log'], 
+		['hexerei:mahogany_log', 'hexerei:willow_log', 'hexerei:witch_hazel_log']
+	]);
+
+	event.shaped('kubejs:tree_branch',[
+		['unusualprehistory:foxxi_planks', 'unusualprehistory:ginkgo_planks', 'unusualprehistory:dryo_planks'], 
+		['twilightforest:time_planks', 'twilightforest:transformation_planks', 'twilightforest:mining_planks'], 
+		['hexerei:mahogany_planks', 'hexerei:willow_planks', 'hexerei:witch_hazel_planks']
+	]);
+
+
 	event.shapeless('kubejs:tree_leaf',['unusualprehistory:foxxi_leaves', 'unusualprehistory:ginkgo_leaves', 'unusualprehistory:dryo_leaves'])
 
 
