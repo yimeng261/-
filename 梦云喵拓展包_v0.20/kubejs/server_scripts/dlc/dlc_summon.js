@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
     event.recipes.summoningrituals
         .altar('minecraft:totem_of_undying')
         .sacrifice('alexsmobs:sunbird',1)
-        .id('darksteel_spine_recipe')
+        .id('phoenix_recipe')
         .itemOutput('kubejs:phoenix_feather')
         .inputs([
             '8x minecraft:gold_block'
