@@ -144,7 +144,7 @@ ServerEvents.recipes(event => {
 		'CAC'
 	], {
 		A: 'chestcavity:blaze_shell',
-		B: 'chestcavity:blaze_core',
+		B: 'nameless_trinkets:blaze_nucleus',
 		C: 'chestcavity:active_blaze_rod'
 	});
 
