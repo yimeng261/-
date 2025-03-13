@@ -156,9 +156,9 @@ global.betterHammer = (ctx) => {
         if(tagWhiteList.some(t=>item.hasTag(t.slice(1)))||blockWhiteList.some(b=>b==key)){
             num+=value.length
             value.forEach(p=>{
-                level.removeBlock(p,false)
                 let event = new BlockEvent.BreakEvent(level, p, level.getBlockState(p), player);
                 MinecraftForge.EVENT_BUS.post(event);
+                level.removeBlock(p,false)
             })
         }else{
             blockTypeMap.delete(key)

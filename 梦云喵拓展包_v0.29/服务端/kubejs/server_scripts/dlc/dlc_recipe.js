@@ -398,7 +398,7 @@ ServerEvents.recipes(event => {
 		event.recipes.createDeploying('kubejs:half_machine_core', ['kubejs:half_machine_core', 'minecraft:clock']),
 		event.recipes.createDeploying('kubejs:half_machine_core', ['kubejs:half_machine_core', 'minecraft:nether_star']),
 		event.recipes.createDeploying('kubejs:half_machine_core', ['kubejs:half_machine_core', 'create:precision_mechanism']),
-		event.recipes.createDeploying('kubejs:half_machine_core', ['kubejs:half_machine_core', 'art_of_forging:enigmatic_letruct']),
+		event.recipes.createDeploying('kubejs:half_machine_core', ['kubejs:half_machine_core', 'art_of_forging:enigmatic_construct']),
 		event.recipes.createPressing('kubejs:half_machine_core', 'kubejs:half_machine_core')
 	]).transitionalItem('kubejs:half_machine_core').loops(2)
 
