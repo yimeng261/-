@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
             '2x art_of_forging:soul_ember', 
             '4x bosses_of_mass_destruction:ancient_anima', 
             '4x alexsmobs:soul_heart', 
-            '2x kubejs:weird_paperman', 
+            'kubejs:weird_paperman', 
             'kubejs:doppelganger'
         ])
 
