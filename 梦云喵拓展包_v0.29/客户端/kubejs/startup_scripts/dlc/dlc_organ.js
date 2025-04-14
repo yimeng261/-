@@ -211,7 +211,7 @@ StartupEvents.registry('item', event => {
         .addScore('filtration', 1.5)
         .addTextLines('default', [Text.gray('恒温系统！')])
         .addTextLines('alt', [LEADING_SYMBOL, Text.gray('当体温高于50度时，提供额外的心火/融火效果，并将体温保持在50度')])
-        .addTextLines('alt', [LEADING_SYMBOL, Text.gray('该器官提供的心火/融火效果等级不会超过100')])
+        .addTextLines('alt', [LEADING_SYMBOL, Text.gray('该器官提供的心火/融火效果等级不会超过30')])
         .addTextLines('alt', [LEADING_SYMBOL, Text.gray('安装该器官后，心火/融火效果时间不会超过1200s')])
         .addTextLines('alt', [LEADING_SYMBOL, Text.gray('当体温低于-50度时，提供额外的法强，并将体温保持在-50度')])
         .build())

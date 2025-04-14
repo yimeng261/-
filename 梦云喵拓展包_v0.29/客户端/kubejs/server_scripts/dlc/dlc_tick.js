@@ -79,8 +79,8 @@ let dlcTickOnly={
             let count = 0;
             let count_num = 0;
             let onlySet = new Set();
-            if (typeMap.has('kubejs:sculk')) {
-                typeMap.get('kubejs:sculk').forEach(organ => {
+            if (typeMap.has('kubejs:machine')) {
+                typeMap.get('kubejs:machine').forEach(organ => {
                     if (!onlySet.has(organ.id))
                     {
                         onlySet.add(organ.id);
